@@ -1,4 +1,9 @@
-function Card({ img, date, theme, title, subtitle }) {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+function Card({ img, date, theme, title, subtitle } : {img:any
+     date:any
+     theme:any
+     title:any
+     subtitle:any}) {
      return (
           <div className="bg-zinc-200 p-4 rounded-lg w-[300px] shadow-md shadow-zinc-800 duration-700">
                <div className="w-full rounded-t-lg h-[150px] overflow-hidden duration-700">
